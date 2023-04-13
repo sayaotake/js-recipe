@@ -15,7 +15,7 @@ let hensu2 = 42
 console.log(hensu2) // => 42
 
 // * const キーワードを使うと、定数になる
-const teisu = 42
+let teisu = 42
 
 // 定数には値を再代入できない
 teisu = 100 // エラー
@@ -28,4 +28,7 @@ console.log(teisu) // => 42
 
 // 複数の単語を組み合わせるときは、ふたつめ以降の単語の最初の文字を大文字にしてくっつけることが多い
 // このような書き方をキャメルケースという（大文字がキャメル＝ラクダのこぶにみえることから）
-let camelCase // camel + case
+//let camelCase // camel + case
+
+
+//4/14、18行目のconst→letに、31行目をコメントアウト
