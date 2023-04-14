@@ -37,3 +37,10 @@ const multiply = function (x, y){
 const plusRound = function(x, y){
   return Math.round(x + y)
 }
+
+const niceButton = document.getElementById("nice-button");
+
+niceButton.onclick = function () {
+console.log("こんにちは");
+};
+
