@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div id="element">僕の趣味はなんでしょう？</div>
+    
+     <button id="button1">スノーボード</button>
+     <button id="button2">カラオケ</button>
+     <button id="button3">勉強</button>
+    <script>
+// eslint-disable-next-line no-unused-vars
+const element = document.getElementById("element")
+const button1 = document.getElementById("button1")
+// eslint-disable-next-line no-unused-vars
+const button2 = document.getElementById("button2")
+// eslint-disable-next-line no-unused-vars
+const button3 = document.getElementById("button3")
+
+button1.onclick = function(){
+element.textContent = "正解！！スノーボードが趣味でした"
+}
+
+button2.onclick = function(){
+element.textContent = "正解！！カラオケが趣味でした"
+}
+button3.onclick = function(){
+element.textContent = "正解！！勉強が趣味でした"
+}
+
+console.dir(element)
+    </script>
+</body>
+</html>
