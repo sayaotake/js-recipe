@@ -3,8 +3,9 @@ const container = document.getElementById("cards-container")
 const addButton = document.getElementById("add-button")
 
 // 追加ボタンを押したときの処理を登録
-addButton.onclick = function () {
+addButton.onkeydown = function () {
   // カードを作成する
+  
   const card = createCard(inputElement.value)
   container.append(card)
 
