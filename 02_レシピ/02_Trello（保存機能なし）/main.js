@@ -76,23 +76,24 @@ addButton1.onclick = function() {
     // カードの枠を作る
     const card1 = document.createElement("div")
     card1.className = "card"
-  
+
     // テキストを表示する部分を作る
     const todo1 = document.createElement("div")
     todo1.className = "todo"
     todo1.textContent = text
     card1.append(todo1)
-  
+
     // 削除ボタンを作る
     const deleteButton1 = document.createElement("div")
     deleteButton1.className = "delete"
-  
+
+
     // 削除ボタンを押したときの処理を登録
     deleteButton1.onclick = function() {
       // カードを削除する
       card1.remove()
     }
     card1.append(deleteButton1)
-  
+
     return card1
 }
