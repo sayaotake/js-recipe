@@ -69,3 +69,5 @@ for (const text of list) {
   fragment.append(card)
 }
 container.append(fragment)
+
+
